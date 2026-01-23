@@ -9,7 +9,8 @@ Return the indices of the two numbers, index1 and index2, added by one as an int
 The tests are generated such that there is exactly one solution. You may not use the same element twice.
 
 Your solution must use only constant extra space.
- */
+
+*/
 
 public class TwoSum2{
     public static void main(String[] args) {
