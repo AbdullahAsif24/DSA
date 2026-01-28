@@ -5,7 +5,7 @@ Follow up: If you have figured out the O(n) solution, try coding another solutio
 */
 
 
-public class MinimumSizeSubArrSum {
+public class MinSizeSubArrSum {
     public static void main(String[] args) {
         int[] nums = {1,1,1,1,1,1,1,1};
 
