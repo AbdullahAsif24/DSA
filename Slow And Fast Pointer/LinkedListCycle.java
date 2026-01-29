@@ -21,7 +21,7 @@ public class LinkedListCycle {
         
     }
 
-    public boolean hasCycle(ListNode head) {
+    public static boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {
             return false;
         }
