@@ -6,6 +6,15 @@ There is a cycle in a linked list if there is some node in the list that can be 
 Do not modify the linked list.
 */
 
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode(int x) {
+        val = x;
+        next = null;
+    }
+}
+
 public class LinkedListCycleII {
     public static void main(String[] args) {
         
