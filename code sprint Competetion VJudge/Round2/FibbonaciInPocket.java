@@ -7,20 +7,20 @@ public class FibbonaciInPocket {
         int t = sc.nextInt();
 
         while (t-- > 0) {
-            int num = sc.nextInt();
+            long num = sc.nextLong();
             System.out.println(sumFinder(num));
         }
     }
 
-    public static int sumFinder(int num){
+    public static long sumFinder(long num){
         if (num <= 1) {
             return 0;
         }
 
-        int crrVal = 1;
-        int prevVal = 0;
-        int swapvar = 0;
-        int sum = 0;
+        long crrVal = 1;
+        long prevVal = 0;
+        long swapvar = 0;
+        long sum = 0;
 
         while ( crrVal < num ) {
             if ((crrVal % 2) == 0) {
