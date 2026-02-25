@@ -9,7 +9,6 @@ Note that you don't need to modify intervals in-place. You can make a new array 
 */
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class InsertInterval {
