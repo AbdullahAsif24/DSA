@@ -8,10 +8,13 @@ import java.util.Arrays;
 
 public class MeetingRooms {
     public static void main(String[] args) {
+        int[] start = {1, 2, 3};
+        int[] end = {2, 3, 4};
+        System.out.println(minMeetingRooms(start, end));
         
     }
 
-    public int minMeetingRooms(int[] start, int[] end) {
+    public static int minMeetingRooms(int[] start, int[] end) {
         Arrays.sort(start);
         Arrays.sort(end);
         
